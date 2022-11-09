@@ -18,7 +18,6 @@ app.use(express.json());
 connectDB();
 
 // Routes
-
 app.use("/api/v1/goals", useRoutes);
 
 // Listener
